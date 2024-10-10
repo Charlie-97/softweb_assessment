@@ -21,7 +21,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> with ControllerValidators {
   late TextEditingController _emailController;
   late TextEditingController _passwordController;
-  bool _isPasswordVisible = false;
+  bool _isPasswordVisible = true;
   bool _isLoading = false;
 
   @override
@@ -226,4 +226,3 @@ class _LoginPageState extends State<LoginPage> with ControllerValidators {
     return null;
   }
 }
-
