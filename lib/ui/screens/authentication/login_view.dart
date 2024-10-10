@@ -76,7 +76,7 @@ class _LoginPageState extends State<LoginPage> with ControllerValidators {
                 onChanged: (_) {
                   setState(() {});
                 },
-                height: 76,
+                // height: 76,
               ),
               const Gap(24),
               TextFieldWidget(
