@@ -19,3 +19,9 @@ final LinearGradient buttonGradient = LinearGradient(
   begin: Alignment.bottomRight,
   end: Alignment.topCenter,
 );
+
+const RadialGradient backgroundGradient = RadialGradient(
+  colors: [Color(0xFF69695F), Color(0xFF442F28), appBlack],
+  center: Alignment.topRight,
+  radius: 1,
+);
